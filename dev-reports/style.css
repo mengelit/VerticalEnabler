@@ -1,0 +1,242 @@
+/**********************************************************************/
+/*****THIS STYLESHEET IS BROKEN DOWN INTO TWO SECTIONS.  THE FIRST ****/
+/*****IS COMPRISED OF STYLES WHICH YOU CAN CHANGE WITHOUT AFFECTING****/
+/*****THE OVERALL DESIGN OF THE PAGES.  THE SECOND SECTION CONSISTS****/
+/*****OF STYLES THAT YOU ARE STRONGLY URGED NOT TO CHANGE BECAUSE  ****/
+/*****THEY DO AFFECT THE DESIGN OF THE PAGES.                      ****/
+
+
+/*******************************SECTION 1******************************/
+/*********IF YOU NEED TO ADD STYLES, PLEASE DO SO IN THIS SECTION.*****/
+
+a{color: #1d9b00;} 
+
+.boldtext{font-weight: bold;}
+
+.emphasize{font-style: italic;}
+
+
+/*******************************SECTION 2******************************/
+/****CHANGES MADE BELOW THIS LINE WILL FUNDAMENTALLY CHANGE THE   *****/
+/****DESIGN OF THE SITE.  THIS INCLUDES FONT COLOR AND BACKGROUND *****/
+/****STYLE MODIFICATIONS.                                         *****/
+a img, a:hover img, #headertext a, img{text-decoration: none; border: none;}
+
+html, body{background: #a9c8ce; margin: 0; padding: 0px; text-align: center; background: url(../images/bodyback.jpg);}
+
+#bodytext a:visited, h2, #srchtxt label a, #srchtxt a{color: #19305c;}
+
+body, div, p{font-family: Verdana, Arial, Helvetica, sans-serif; font-size: small;}
+
+#bodytext
+{
+ color: #000000; 
+ margin: 0px; 
+ padding: 0px; 
+ border-left: #ffffff solid 1px;
+ border-right: #ffffff solid 1px;
+ position: relative;
+ float: left;
+ width: 700px;
+ height: 100%;
+}
+
+#breadcrumbs, #breadcrumbs a, #breadcrumbs a:visited{font-size: xx-small; background: #dee6eb; color: #000000;}
+
+p#breadcrumbs{padding: 8px 5px; margin: 0px;}
+
+#center
+{
+ background: #ffffff url(../images/centerback.gif) repeat-y;
+ margin: 40px auto 0px auto;
+ padding: 0px;
+ width: 900px; 
+ text-align: left; 
+ position: relative;
+}
+
+.clearboth{clear: both;}
+
+div{position: relative;}
+
+.floatclear{clear: both; margin: 0px; padding: 0px; height: 0px; position: relative; font-size: .05em;}
+
+.floatleft{float: left;}
+
+.floatright{float: right;}
+
+/*#footer
+{
+ margin: 0px auto; 
+ padding: 6px 8px; 
+ color: #ffffff; 
+ background: #19305c; 
+ width: 882px; 
+ text-align: left;
+ border: #ffffff solid 1px;
+ font-family: Arial, lucida, sans-serif;
+ font-size: 10px; 
+ clear:both;
+}
+
+#footer a{color: #bdbdcd;}
+
+#footer a:hover{color: #80ff00;}
+
+#footerlinks{float: right; font-family: Arial, lucida, sans-serif; font-size: 10px; }
+
+#footerlinks a .ununderlined{text-decoration: none;}*/
+
+form{display: inline;}
+
+h1, p{padding: 6px; margin: 0px;}
+
+h1, h2, h3, h4{font-family: Garamond, "Times News Roman", serif;}
+
+h1{font-size: xx-large; color: #ad9e87;} 
+
+h2{font-size: x-large; margin: 10px 12px 0px 12px; padding: 3px 8px;} 
+
+h3{font-size: large; color: #374127; margin: 8px 12px 0px 12px; padding: 2px 8px;}
+
+h4{font-size: medium; margin: 8px 12px 0px 12px; padding: 2px 8px;}
+
+h5{font-size:small; margin: 8px 12px 0px 12px; padding: 2px 8px;}
+
+#header
+{
+ margin: 0px;
+ padding: 0px; 
+ border: #ffffff solid 1px; 
+ position: relative;
+ height: 150px;
+ background: #ffffff;
+}
+
+#header img{padding: 0px; margin: 0px;}
+
+#headertext{text-align: right; position: absolute; color: white; top: 13px; right: 6px; padding: 0px; margin: 0px;}
+
+#headertext a, #headertext a:visited{color: white;}
+
+#headertext a:hover, #topnav ul li.topnavlinkpad a:hover{color: #8dc73f;}
+
+img{padding: 0px; margin: 0px;}
+
+#leftnav
+{
+ position: relative;
+ float: left; 
+ width: 195px;
+ border-left: #ffffff solid 1px; 
+ margin: 0px;
+ padding: 0px;
+ height: 100%;
+ color: #072b61;
+ background: #c2c199;
+}
+
+#leftnav p{margin: 0px; padding: 0px; text-align: center;}
+
+#leftnavlinks ul, #leftnavlinks ul li{margin: 0px; padding: 0px; list-style: none;}
+
+#leftnavlinks ul li{border-bottom: #ffffff solid 1px; }
+
+#leftnavlinks ul li a, #leftnavlinks ul li a:visited
+{
+ text-decoration: none;
+ color: #19305c;
+ font-size: .99em; 
+ display: block;
+}
+
+div#leftnavlinks ul li a:hover{color: #ffffff; background: #9b997a;}
+
+#leftnavlinks ul li a, #leftnavlinks ul li a:visited, #leftnavlinks ul li.aholder
+{
+ padding: 4px 4px 4px 12px;
+ margin: 0px;
+}
+
+.nd{display: none;}
+
+ol, ul{margin: 0px 0px 0px 22px; padding: 0px 22px;}
+
+#searchel
+{
+ background: #abb6be; 
+ margin: 0px; 
+ border-bottom: #ffffff solid 1px; 
+ padding: 0px;
+ min-height: 62px;
+ width: 195px;
+}
+
+#srchbox{padding: 0px 8px 8px 8px; margin: 0px;}
+ 
+#srchtxt label{margin-right: 75px; font-size: 1em;}
+
+#srchtxt{padding: 5px 8px; margin: 0px;}
+
+input#search{margin: 0px; padding: 0px; background: #ffffff; width: 145px; height: 21px; border: 1px solid #adadad;}
+
+input.searchbtn{position: absolute; padding: 0px; margin: 0px; height: 22px; width: 22px; top: 1px;}
+
+#topnav
+{
+ border-left: #ffffff solid 1px; 
+ border-right: #ffffff solid 1px; 
+ border-bottom: #ffffff solid 1px;
+ background: #19305c; 
+ padding: 0px; 
+ margin: 0px;
+}
+
+.topnavlinkpad{margin-right: 20px;}
+
+#topnav ul{padding: 6px 0px; margin: 0px 0px 0px 19px;}
+
+#topnav ul li{display: inline;}
+
+#topnav ul li a, #topnav ul li a:visited
+{
+ color: #ffffff; 
+ text-decoration: none; 
+ font-family: Arial, Helvetica, sans-serif; 
+}
+
+.xsmalltext{font-size: .7em;}
+
+/* LISTING TABLE */
+.lsttbl {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+	border: 1px solid #666666;
+	background-color: #CCDEDA;
+	margin: 0px 0px 0px 8px;
+}
+
+.lsttbl td, .lsttbl th{padding: 2px 8px; text-align:left;}
+
+
+.row tr{ 
+	font-size: 9px;
+}
+
+.lsttbl th {
+	font-weight: bold;
+	background-color: #003366;
+	color: #FFFFFF;
+}
+.lsttbl tr.odd {
+	background-color: #E5EAEF;
+}
+.lsttbl tr.even {
+	background-color: #FFFFFF;
+}
+
+.divmargin {
+ padding: 8px; 
+ margin: 10px;
+}
